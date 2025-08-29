@@ -19,6 +19,56 @@ header {
   display: block;
   margin: 0 auto;
 }
+.animal-img {
+  width: 60%;
+  max-width: 600px;
+  display: block;
+  margin: 20px auto;
+  border: 3px solid green;
+  border-radius: 10px;
+}
+
+.animal-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.animal-list li {
+  margin: 10px 0;
+}
+
+.animal-list a {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: darkgreen;
+  font-weight: bold;
+}
+.animal-img {
+  width: 60%;
+  max-width: 600px;
+  display: block;
+  margin: 20px auto;
+  border: 3px solid green;
+  border-radius: 10px;
+}
+
+.animal-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.animal-list li {
+  margin: 10px 0;
+}
+
+.animal-list a {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: darkgreen;
+  font-weight: bold;
+}
 
 .top-nav, .bottom-nav {
   display: flex;
