@@ -156,3 +156,77 @@
   </footer>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animals - Pine City Zoo</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    main {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+      text-align: center;
+    }
+    .card {
+      border: 2px solid #ccc;
+      border-radius: 15px;
+      padding: 15px;
+      background: #f9f9f9;
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .card h3 {
+      margin: 10px 0;
+    }
+    .card a {
+      text-decoration: none;
+      color: #006400;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="zoo logo.png" alt="Pine City Zoo Logo" class="logo">
+    <h1>Pine City Zoo</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="animals.html">Animals</a></li>
+        <li><a href="places.html">Places</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="card">
+      <a href="lion.html"><img src="lion.jpg" alt="Lion"></a>
+      <h3><a href="lion.html">Lion</a></h3>
+    </div>
+    <div class="card">
+      <a href="elephant.html"><img src="elephant.jpg" alt="Elephant"></a>
+      <h3><a href="elephant.html">Elephant</a></h3>
+    </div>
+    <div class="card">
+      <a href="giraffe.html"><img src="giraffe.jpg" alt="Giraffe"></a>
+      <h3><a href="giraffe.html">Giraffe</a></h3>
+    </div>
+  </main>
+
+  <footer>
+    <p>
+      <a href="weather.html">Weather</a> | 
+      <a href="feedback.html">Feedback</a>
+    </p>
+    <p>&copy; 2025 Pine City Zoo</p>
+  </footer>
+</body>
+</html>
