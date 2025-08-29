@@ -195,3 +195,71 @@ main {
   border: 4px solid green;
   border-radius: 12px;
 }
+/* Layout adjustments */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  background: green;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  flex: 1;
+  margin-top: 140px; /* keeps space under header */
+  margin-bottom: 80px; /* keeps space above footer */
+  overflow-y: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Bigger map */
+.map-container {
+  display: flex;
+  justify-content: center;
+}
+
+.map {
+  width: 90%;
+  max-width: 1000px;
+  border: 4px solid green;
+  border-radius: 10px;
+}
+
+/* Footer fixed at bottom */
+footer {
+  background: green;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
