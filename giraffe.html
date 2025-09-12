@@ -4,30 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Giraffe - Pine City Zoo</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4fff4; color: #333; text-align: center; }
-    header { background: #2e7d32; color: white; padding: 15px 0; }
-    nav { background: #388e3c; padding: 10px 0; }
-    nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; font-size: 16px; }
-    nav a:hover { text-decoration: underline; }
-    main { padding: 30px; max-width: 800px; margin: auto; }
-    img { max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
-    p { font-size: 18px; line-height: 1.6; margin-top: 20px; }
-    footer { background: #2e7d32; color: white; padding: 10px; margin-top: 30px; }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header><h1>Pine City Zoo - Giraffe</h1></header>
-  <nav><a href="index.html">Home</a><a href="animals.html">Animals</a><a href="places.html">Places</a></nav>
+  <header>
+    <h1>Pine City Zoo</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="animals.html">Animals</a>
+      <a href="places.html">Places</a>
+    </nav>
+  </header>
+
   <main>
-    <img src="giraffe.jpg" alt="Giraffe">
-    <p>
-      Giraffes are the tallest mammals on Earth, using their long necks to reach high leaves. 
-      They are gentle and graceful, feeding mainly on acacia trees. 
-      At Pine City Zoo, visitors can watch giraffes roam a wide open enclosure designed 
-      to mimic their natural savannah habitat.
-    </p>
+    <h2>Giraffe</h2>
+    <img src="giraffe.jpg" alt="Giraffe" style="max-width:400px; display:block; margin:auto;">
+    <p>The giraffe is the tallest land animal on Earth, with long necks that allow them to reach leaves high in trees. 
+       They are gentle herbivores, often found in groups called towers. Their unique spotted coats help with camouflage 
+       while moving through savannah woodlands.</p>
   </main>
+
+  <!-- Bottom Navigation -->
+  <nav style="background:#388e3c; padding:10px 0; text-align:center;">
+    <a href="weather.html" style="color:white; text-decoration:none; margin:0 20px; font-weight:bold;">Weather</a>
+    <a href="feedback.html" style="color:white; text-decoration:none; margin:0 20px; font-weight:bold;">Feedback</a>
+  </nav>
+
   <footer><p>© 2025 Pine City Zoo</p></footer>
 </body>
 </html>
