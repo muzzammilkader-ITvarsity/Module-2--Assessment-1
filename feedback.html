@@ -8,36 +8,28 @@
 </head>
 <body>
   <header>
-    <img src="images/logo.png" alt="Pine City Zoo Logo" class="logo">
     <h1>Pine City Zoo</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="animals.html">Animals</a>
+      <a href="places.html">Places</a>
+    </nav>
   </header>
 
-  <nav class="top-nav">
-    <a href="index.html">Home</a>
-    <a href="animals.html">Animals</a>
-    <a href="places.html">Places</a>
-  </nav>
-
   <main>
-    <h2>Feedback</h2>
+    <h2>We Value Your Feedback</h2>
+    <p>Please share your thoughts to help us improve the Pine City Zoo experience.</p>
     <form>
-      <label for="name">Name:</label><br>
-      <input type="text" id="name" name="name"><br><br>
+      <label for="name">Your Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
 
-      <label for="feedback">Your Feedback:</label><br>
-      <textarea id="feedback" name="feedback" rows="5" cols="40"></textarea><br><br>
+      <label for="message">Your Feedback:</label><br>
+      <textarea id="message" name="message" rows="4" cols="40" required></textarea><br><br>
 
       <button type="submit">Submit</button>
     </form>
   </main>
 
-  <nav class="bottom-nav">
-    <a href="weather.html">Weather</a>
-    <a href="feedback.html">Feedback</a>
-  </nav>
-
-  <footer>
-    <p>© 2025 Pine City Zoo</p>
-  </footer>
+  <footer><p>© 2025 Pine City Zoo</p></footer>
 </body>
 </html>
